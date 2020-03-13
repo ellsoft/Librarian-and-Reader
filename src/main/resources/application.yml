@@ -1,0 +1,16 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/mylib?useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: 142857
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
